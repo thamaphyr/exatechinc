@@ -1,0 +1,19 @@
+.topic-content {
+  border: 1px solid #6b2222;
+  border-radius: 13px;
+  padding: 10px;
+  background-color: #ffabab;
+  transform: translateZ(0);
+  transition: transform 0.25s ease-out;
+}
+
+.topic-content:hover {
+  background-color: #da6b6b;
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+.topic-content:active {
+  background-color: #c92b2b;
+  cursor: pointer;
+}
